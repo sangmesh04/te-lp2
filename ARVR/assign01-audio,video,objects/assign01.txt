@@ -1,0 +1,8 @@
+1. Adding game objects
+   Right click on the project section and select one of game object to be added. After clicking and selecting appropritate position the object will be displayed on the window.
+
+2. Adding audio
+   Right click in the project panel the select Audio->Audio Source then select the audio to be played.
+
+3. Adding video
+   https://youtu.be/3gtGPLELKBs
