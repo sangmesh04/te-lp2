@@ -1,0 +1,18 @@
+steps:
+1. Login in vuforia
+2. In develop option check for license manager
+3. Get the basic license and copy the whole key
+4. Click on task manager and add database on device
+5. click on database, add target cehck for an image add that image with width 6
+6. Click on download database and click on unity editor
+7. Open unity hub 3d core scene
+8. Click on file-> Build settings switch to android mode
+9. Drag and drop the unity databse package in assets area
+10. Delete main camera
+11. Add AR camera from Right click in gameobject area VuforiaEngine->Arcamera
+12. Click on ARcamera , in componenets check for vuforia engine configuration , click on it and  add license we copied in app license key(dont click on add button)
+13. Right click->vuforiaEngine->Image target
+14. In component of image target , look for image target behavior, change type to from database, select database and lastly select iamge target(dont click on add button)
+15. Create a 3d object, place it little bit above our marker. Make this 3d object as child of image target
+16. click on image target, check for tracked and extended tracked and change it to only tracked
+17. Run the program
